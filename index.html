@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- توضیحات متا برای سئو -->
+    <meta name="description" content="Erfan Bayat - Professional Web Developer & Designer. Explore my resume, portfolio, and projects.">
+    <meta name="keywords" content="Erfan Bayat, Web Developer, Designer, Resume, CV, Portfolio, Frontend, Backend, UI/UX">
+    <meta name="author" content="Erfan Bayat">
+
+    <!-- Open Graph Meta Tags برای اشتراک‌گذاری در شبکه‌های اجتماعی -->
+    <meta property="og:title" content="Erfan Bayat - Web Developer & Designer">
+    <meta property="og:description" content="Explore my professional resume, portfolio, and projects.">
+    <meta property="og:image" content="https://example.com/your-image.jpg">
+    <meta property="og:url" content="https://example.com">
+    <meta property="og:type" content="website">
+
+    <!-- تگ Twitter Card برای اشتراک‌گذاری در توییتر -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Erfan Bayat - Web Developer & Designer">
+    <meta name="twitter:description" content="Explore my professional resume, portfolio, and projects.">
+    <meta name="twitter:image" content="https://example.com/your-image.jpg">
+
+    <!-- آیکون سایت (فاوآیکون) -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- بهبود دسترسی با تعریف زبان صفحه -->
+    <meta http-equiv="Content-Language" content="en">
+
+    <!-- بهبود دسترسی برای کاربران نابینا -->
+    <meta name="theme-color" content="#333">
+    <meta name="color-scheme" content="light dark">
+
+    <!-- بهبود سرعت بارگذاری با پیش‌بارگذاری فونت‌ها -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" as="style">
+    <link rel="preload" href="style.css" as="style">
+
+    <!-- بهبود دسترسی با افزودن تگ canonical -->
+    <link rel="canonical" href="https://example.com">
+
+    <!-- بهبود دسترسی با افزودن تگ alternate برای نسخه‌های زبانی دیگر -->
+    <link rel="alternate" hreflang="fa" href="https://example.com/fa">
+    <link rel="alternate" hreflang="ar" href="https://example.com/ar">
+
+    <!-- بهبود دسترسی با افزودن تگ robots -->
+    <meta name="robots" content="index, follow">
+
+    <!-- بهبود دسترسی با افزودن تگ charset و viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- لینک به فایل‌های استایل -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- عنوان صفحه -->
+    <title>Erfan Bayat - Web Developer & Designer</title>
+</head>
+
+<body>
+    <header>  
+        <nav id="navbar" aria-label="Main Navigation">  
+            <div class="logo">  
+                <a href="#" aria-label="Home Page"><p>&nbsp;ERFAN &nbsp;</p><span>&nbsp;BAYAT&nbsp;</span></a>  
+            </div>  
+            <ul>  
+                <li class="li_menu"><a href="#" aria-label="Go to Home Page">HOME</a></li>  
+                <li class="li_menu"><a href="#" aria-label="Learn more about us">ABOUT US</a></li>  
+                <li class="li_menu"><a href="#" aria-label="View my resume">RESUME</a></li>  
+                <li class="li_menu"><a href="#" aria-label="See my projects">PROJECTS</a></li>  
+                <li class="li_menu"><a href="#" aria-label="Discover our services">SERVICES</a></li>  
+                <li class="li_menu"><a href="#" aria-label="Contact me">CONTACT</a></li>  
+            </ul>  
+        </nav>  
+    
+        <section class="header_content" aria-label="Introduction">  
+            <p class="txt1">HEY! I AM</p>  
+            <p class="txt2">ERFAN BAYAT</p>  
+            <p id="typing_txt" aria-label="Dynamic Text"></p>  
+            <i class="bi bi-arrow-down-square" aria-hidden="true"></i>  
+            <button class="head_btn" aria-label="Hire Me">HIRE ME</button>  
+        </section>  
+    </header>
+
+
+    <main>
+        <!--       about me         -->
+
+        <div class="about_me">  
+            <div class="about_me_img">  
+                <img src="./assets/images/computer-program-coding-screen.jpg" alt="Coding Image">  
+            </div>  
+            <div class="about_me_content">  
+                <h2>درباره من</h2>  
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius dignissimos quas nobis, id ullam eos.</p>  
+                <h3>نام : <span>عرفان بیات</span></h3>  
+                <h3>تاریح تولد : <span>1382/06/06</span></h3>  
+                <h3>آدرس : <span>ایران , قزوین خیابان شهید بابایی</span></h3>  
+                <h3 dir="rtl">ایمیل : <span>erfan.bayaat82@gmail.com</span></h3>  
+                <h3>تلفن : <span>+98-9100465539</span></h3>  
+                <button class="about_btn" onclick="downloadCV()">Download CV</button>  
+            </div>  
+        </div>
+        
+        <div class="my_skills">
+            <div class="top_skills">
+                <p>مهارت های من</p>
+                <span>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+            </div>
+
+
+            <div class="skill_cards">
+                <div class="skill_card">
+                    <h3>HTML :</h3>
+                    <div class="circleProgress" progressPercent="95"></div>
+                </div>
+                <div class="skill_card">
+                    <h3>JAVA SCRIPt :</h3>
+                    <div class="circleProgress" progressPercent="90"></div>
+                </div>
+                <div class="skill_card">
+                    <h3>REACT JS:</h3>
+                    <div class="circleProgress" progressPercent="87"></div>
+                </div>
+            </div>
+
+
+            <div class="all_skills">
+                    <div class="skills">
+                        <div class="right">
+                            <label for="html">HTML :</label><br>
+                            <div class="range">
+                                <div class="skill_range" style="--skill-width: 98%;"></div>
+                            </div><br>
+                        
+                            <label for="html">CSS :</label><br>
+                            <div class="range">
+                                <div class="skill_range" style="--skill-width: 96%;"></div>
+                            </div><br>
+                        
+                            <label for="html">WordPress :</label><br>
+                            <div class="range">
+                                <div class="skill_range" style="--skill-width: 85%;"></div>
+                            </div><br>
+                        </div>
+                        
+                        <div class="left">
+                            <label for="html">JS :</label><br>
+                            <div class="range">
+                                <div class="skill_range" style="--skill-width: 96%;"></div>
+                            </div><br>
+                        
+                            <label for="html">PYTHON :</label><br>
+                            <div class="range">
+                                <div class="skill_range" style="--skill-width: 90%;"></div>
+                            </div><br>
+                        
+                            <label for="html">C++ :</label><br>
+                            <div class="range">
+                                <div class="skill_range" style="--skill-width: 95%;"></div>
+                            </div><br>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <!--    main section         -->
+
+            <!-- <section class="main_section">
+
+                <div class="button-container">  
+                    <button onclick="showContent('content1')">درباره من</button>  
+                    <button onclick="showContent('content2')">مهارت ها</button>  
+                    <button onclick="showContent('content3')">تحصیلات</button>   
+                    <button onclick="showContent('content4')">پروژه ها</button>  
+                </div>
+        
+            <div id="content1" class="content active">
+                من عرفان بیات، یک توسعه‌دهنده وب و برنامه‌نویس با ۲ سال تجربه در حوزه طراحی و توسعه وب‌سایت‌های مدرن و کاربرپسند هستم. در ۲۱ سالگی، با اشتیاق فراوان به دنیای فناوری و برنامه‌نویسی وارد شدم و از آن زمان تاکنون، همواره در حال یادگیری و بهبود مهارت‌هایم بوده‌ام.
+
+                من به چالش‌های جدید علاقه‌مندم و از حل مسئله و خلق راه‌حل‌های خلاقانه لذت می‌برم. توانایی کار با تیم و تعامل مؤثر با دیگران را یکی از نقاط قوت خود می‌دانم و همیشه سعی می‌کنم بهترین نتیجه را برای پروژه‌ها به ارمغان بیاورم.
+                
+                هدف من این است که در یک محیط پویا و چالش‌برانگیز کار کنم و پروژه‌هایی را انجام دهم که تأثیر مثبتی بر کاربران نهایی داشته باشد. خارج از کار، علاقه‌مند به یادگیری تکنولوژی‌های جدید، شرکت در رویدادهای فناوری، و بهبود مستمر مهارت‌هایم هستم.
+                
+                
+            </div>  
+
+            <div id="content2" class="content">
+من در طول سال‌های فعالیت خود، مهارت‌های متنوعی را در حوزه‌های مختلف برنامه‌نویسی و توسعه وب کسب کرده‌ام. برخی از این مهارت‌ها عبارتند از:
+<br><br>
+زبان‌های برنامه‌نویسی:<br>
+ Python, C++ <br><br>
+
+توسعه فرانت‌اند:<br>
+ HTML, CSS, JavaScript, React<br><br>
+
+توسعه بک‌اند: <br>
+Node.js, Python (Django/Flask)<br><br>
+
+سیستم‌های مدیریت محتوا (CMS):<br>
+ WordPress<br>
+
+ابزارهای توسعه: <br>
+Git, GitHub, VS Code<br><br>
+
+سایر مهارت‌ها: طراحی رابط کاربری (UI/UX)، بهینه‌سازی وب‌سایت‌ها (SEO)<br>
+            </div>  
+            
+            <div id="content3" class="content">
+                ۲. تحصیلات
+من دانش‌آموخته رشته کامپیوتر هستم و در طول دوران تحصیل، همواره به دنبال یادگیری مفاهیم جدید و به‌روز در حوزه فناوری اطلاعات بوده‌ام. علاوه بر تحصیلات آکادمیک، دوره‌های متعددی در زمینه برنامه‌نویسی وب، توسعه فرانت‌اند و بک‌اند، و طراحی رابط کاربری گذرانده‌ام.
+
+این دوره‌ها به من کمک کردند تا مهارت‌های فنی خود را تقویت کنم و آماده ورود به بازار کار شوم. من معتقدم که یادگیری هیچ‌وقت متوقف نمی‌شود و همیشه چیزهای جدیدی برای کشف کردن وجود دارد.
+            </div>  
+            
+            <div id="content4" class="content">
+در طول ۲ سال فعالیت حرفه‌ای، توانسته‌ام چندین پروژه موفق را به انجام برسانم. برخی از این پروژه‌ها عبارتند از:<br>
+
+۱. باشگاه ورزشی HPowerGym<br>
+آدرس سایت: hpowergym.ir<br><br>
+
+توضیحات: این پروژه یک وب‌سایت برای یک باشگاه ورزشی است که شامل بخش‌هایی مانند معرفی خدمات، برنامه‌های تمرینی، و امکان ثبت‌نام آنلاین می‌شود.
+
+تکنولوژی‌ها: HTML, CSS, JavaScript, React
+
+۲. فروشگاه آنلاین Diamond Beauty Shop <BR></BR>
+آدرس سایت: diamonbeautyshop.ir <br><br>
+
+توضیحات: یک فروشگاه آنلاین برای لوازم آرایشی و بهداشتی که امکان مشاهده محصولات، افزودن به سبد خرید، و پرداخت آنلاین را فراهم می‌کند.
+
+تکنولوژی‌ها: WordPress, PHP, CSS, JavaScript<br>
+<br>
+۳. نمونه‌کارهای بیشتر در GitHub<br>
+لینک GitHub: github.com/yourusername<br>
+<br>
+توضیحات: در گیت‌هاب می‌توانید نمونه‌کارهای بیشتری از من را مشاهده کنید که شامل پروژه‌های کوچک و بزرگ 
+            </div>
+            </section> -->
+
+            <section class="main_section">
+                <div class="button-container">
+                    <button onclick="showContent('content1')">درباره من</button>
+                    <button onclick="showContent('content2')">مهارت ها</button>
+                    <button onclick="showContent('content3')">تحصیلات</button>
+                    <button onclick="showContent('content4')">پروژه ها</button>
+                </div>
+            
+                <div id="content1" class="content active">
+                    <p>
+                من عرفان بیات، یک توسعه‌دهنده وب و برنامه‌نویس با ۲ سال تجربه در حوزه طراحی و توسعه وب‌سایت‌های مدرن و کاربرپسند هستم. در ۲۱ سالگی، با اشتیاق فراوان به دنیای فناوری و برنامه‌نویسی وارد شدم و از آن زمان تاکنون، همواره در حال یادگیری و بهبود مهارت‌هایم بوده‌ام. <br><br>
+
+                من به چالش‌های جدید علاقه‌مندم و از حل مسئله و خلق راه‌حل‌های خلاقانه لذت می‌برم. توانایی کار با تیم و تعامل مؤثر با دیگران را یکی از نقاط قوت خود می‌دانم و همیشه سعی می‌کنم بهترین نتیجه را برای پروژه‌ها به ارمغان بیاورم.<br><br>
+                
+                هدف من این است که در یک محیط پویا و چالش‌برانگیز کار کنم و پروژه‌هایی را انجام دهم که تأثیر مثبتی بر کاربران نهایی داشته باشد. خارج از کار، علاقه‌مند به یادگیری تکنولوژی‌های جدید، شرکت در رویدادهای فناوری، و بهبود مستمر مهارت‌هایم هستم.<br><br>
+                
+                    </p>
+                </div>
+            
+                <div id="content2" class="content">
+                    <p>
+                        
+من در طول سال‌های فعالیت خود، مهارت‌های متنوعی را در حوزه‌های مختلف برنامه‌نویسی و توسعه وب کسب کرده‌ام. برخی از این مهارت‌ها عبارتند از:
+<br><br>
+زبان‌های برنامه‌نویسی:<br>
+ Python, C++ <br><br>
+
+توسعه فرانت‌اند:<br>
+ HTML, CSS, JavaScript, React<br><br>
+
+توسعه بک‌اند: <br>
+Node.js, Python (Django/Flask)<br><br>
+
+سیستم‌های مدیریت محتوا (CMS):<br>
+ WordPress<br>
+
+ابزارهای توسعه: <br>
+Git, GitHub, VS Code<br><br>
+
+سایر مهارت‌ها: طراحی رابط کاربری (UI/UX)، بهینه‌سازی وب‌سایت‌ها (SEO)<br>
+                    </p>
+                </div>
+            
+                <div id="content3" class="content">
+                    <p>
+                من دانش‌آموخته رشته کامپیوتر هستم و در طول دوران تحصیل، همواره به دنبال یادگیری مفاهیم جدید و به‌روز در حوزه فناوری اطلاعات بوده‌ام. علاوه بر تحصیلات آکادمیک، دوره‌های متعددی در زمینه برنامه‌نویسی وب، توسعه فرانت‌اند و بک‌اند، و طراحی رابط کاربری گذرانده‌ام. <br><br>
+                
+                این دوره‌ها به من کمک کردند تا مهارت‌های فنی خود را تقویت کنم و آماده ورود به بازار کار شوم. من معتقدم که یادگیری هیچ‌وقت متوقف نمی‌شود و همیشه چیزهای جدیدی برای کشف کردن وجود دارد. <br><br>
+                            
+                    </p>
+                </div>
+            
+                <div id="content4" class="content">
+                    <p>
+                        
+در طول ۲ سال فعالیت حرفه‌ای، توانسته‌ام چندین پروژه موفق را به انجام برسانم. برخی از این پروژه‌ها عبارتند از:<br><br>
+
+۱. باشگاه ورزشی HPowerGym<br>
+آدرس سایت: <a href="https://hpowergym.ir/" target="_blank">hpowergym.ir</a><br>
+
+توضیحات: این پروژه یک وب‌سایت برای یک باشگاه ورزشی است که شامل بخش‌هایی مانند معرفی خدمات، برنامه‌های تمرینی، و امکان ثبت‌نام آنلاین می‌شود. <br>
+
+تکنولوژی‌ها: HTML, CSS, JavaScript, React <br> <br>
+
+۲. فروشگاه آنلاین Diamond Beauty Shop <BR>
+آدرس سایت: <a href="https://diamondbeautyshop.ir/">diamonbeautyshop.ir </a> <br>
+
+توضیحات: یک فروشگاه آنلاین برای لوازم آرایشی و بهداشتی که امکان مشاهده محصولات، افزودن به سبد خرید، و پرداخت آنلاین را فراهم می‌کند. <br>
+
+تکنولوژی‌ها: HTml, CSS, JavaScript ,React<br>
+<br>
+۳. نمونه‌کارهای بیشتر در GitHub<br>
+لینک GitHub: github.com/yourusername<br>
+<br>
+توضیحات: در گیت‌هاب می‌توانید نمونه‌کارهای بیشتری از من را مشاهده کنید که شامل پروژه‌های کوچک و بزرگ 
+            
+                    </p>
+                </div>
+            </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+          <div class="footer-section">
+            <h3>درباره ما</h3>
+            <p>توضیحات کوتاهی درباره سایت و فعالیت‌های آن.</p>
+          </div>
+          <div class="footer-section">
+            <h3>لینک‌های مفید</h3>
+            <ul>
+              <li><a href="#">خانه</a></li>
+              <li><a href="#">درباره ما</a></li>
+              <li><a href="#">تماس با ما</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>اطلاعات تماس</h3>
+            <p>آدرس ایمیل: erfan.bayaat82@gmail.com</p>
+            <p>شماره تلفن: +98-9100465539</p>
+          </div>
+          <div class="footer-section">
+            <h3>ما را دنبال کنید</h3>
+            <ul class="social-icons">
+              <li><a href="#" aria-label="فیس‌بوک"><i class="bi bi-facebook"></i></a></li>
+              <li><a href="#" aria-label="اینستاگرام"><i class="bi bi-instagram"></i></a></li>
+              <li><a href="#" aria-label="لینکدین"><i class="bi bi-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2023 عرفان بیات. همه حقوق محفوظ است.</p>
+        </div>
+      </footer>
+
+    <script src="./main.js"></script>
+    <script>  
+        document.addEventListener("DOMContentLoaded", function() {  
+            // کد showContent و دیگر اسکریپت‌ها در اینجا قرار می‌گیرند  
+        });  
+    </script>
+    <!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-XXXXX-X');
+</script>
+</body>
+</html>
